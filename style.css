@@ -1,0 +1,51 @@
+ 
+html,
+body {
+    margin-left: 0;
+    width: auto;
+    height: auto;
+}
+
+.tudo {
+    margin: 0;
+    padding: 10px;
+    display: flexbox;
+}
+
+.menu {
+    text-align: center;
+    float: left;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: #fff;
+    height: 200px;
+    font-family: 'Rubik Mono One', sans-serif;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.315);
+    border-radius: 10px;
+}
+
+.conteudo {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+    height: 200px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 60px;
+    color: #fff;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.315);
+    border-radius: 10px;
+}
+
+#botoes {
+    margin: 10px;
+    position: absolute;
+}
